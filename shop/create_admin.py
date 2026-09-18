@@ -4,12 +4,12 @@ import os
 
 
 class Command(BaseCommand):
-    help = "Create admin user"
+    help = "Create kadam user"
 
     def handle(self, *args, **kwargs):
         User = get_user_model()
 
-        username = os.getenv("kadam", "admin")
+        username = os.getenv("kadam", "kadam")
         password = os.getenv("kadam")
 
         if not password:
