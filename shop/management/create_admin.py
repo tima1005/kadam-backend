@@ -14,7 +14,7 @@ class Command(BaseCommand):
 
         if not password:
             self.stdout.write(
-                self.style.ERROR("kadam is not set")
+                self.style.ERROR("ADMIN_PASSWORD is not set")
             )
             return
 
