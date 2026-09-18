@@ -1,0 +1,6 @@
+Django
+djangorestframework
+psycopg[binary]
+Pillow
+django-cors-headers
+gunicorn
