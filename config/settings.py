@@ -24,10 +24,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-@*-a&2j9u3!fc!$@a(x_fgi@5!c+bc8mp#oq!ut*j8#w*g2%ax'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
-ALLOWED_HOSTS = []
-
+DEBUG = False
+ALLOWED_HOSTS = ["kadam-backend.onrender.com"]
 
 # Application definition
 
